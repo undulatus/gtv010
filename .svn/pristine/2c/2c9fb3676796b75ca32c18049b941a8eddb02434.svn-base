@@ -1,0 +1,12 @@
+#logging properties
+logging.level.org.springframework.web=ERROR
+logging.level.com.pointwest.workforce.planner=DEBUG
+# Logging pattern for the console
+logging.pattern.console= "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+# Logging pattern for file
+logging.pattern.file= "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+logging.file=usr/WorkforcePlanner/logs.log
+
+server.contextPath=/googletoken-validator
+#remove to prod
+server.port = 8082
